@@ -1,0 +1,137 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#app {
+  height: 100vh;
+}
+
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 100%;
+  margin: 30px 0;
+}
+.project .image {
+  background: url("https://www.azutura.com/media/catalog/product/cache/50/thumbnail/100x100/9df78eab33525d08d6e5fb8d27136e95/W/S/WS-42542_WP-01.jpg");
+  width: 91px;
+  height: 91px;
+  background-size: cover;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.project .textContent {
+  width: 100%;
+}
+.project .textContent .title {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.project .textContent .header-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.project .textContent .header-box .btns {
+  padding-right: 10px;
+}
+.project .textContent .header-box .btns span {
+  width: 20px;
+  width: 20px;
+  margin: 0 5px;
+}
+.project .textContent .text {
+  margin: 0;
+}
+
+.home h1,
+.home h2 {
+  padding: 5px;
+  width: 100%;
+  margin: 20px auto;
+  max-width: 230px;
+  border: 5px solid #9db6ec;
+  color: #9db6ec;
+  font-weight: 800;
+  font-size: 1.5em;
+  text-align: center;
+}
+.home .search {
+  background-color: #f4f4f5;
+  border-radius: 20px;
+  border: 0;
+  width: 100vw;
+  max-width: 300px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.home .border {
+  height: 15px;
+  width: 100%;
+  background-color: #9db6ec;
+}
+.home #app {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.home .addNewProject {
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px 15px 5px 15px;
+  font-size: 1em;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
